@@ -5,17 +5,17 @@ import java.util.Arrays;
 /**
  * Created by Gaojunchao on 16/5/1.
  */
-public class SortDemo4 {
+public class SortDemo3 {
     public static void main(String[] args) {
         int[] ary = {8, 2, 3, 7, 1};
-        ary = insertSort(ary);
+        ary = insertSort2(ary);
         System.out.println(Arrays.toString(ary));
     }
 
     /**
      * 插入式排序
      */
-    private static int[] insertSort(int[] ary) {
+    private static int[] insertSort2(int[] ary) {
         int i, j, t;
         for (i = 1; i < ary.length; i++) {
             t = ary[i];
