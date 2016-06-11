@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * Created by array on 16-4-22.
+ * @noinspection ALL
  */
 public class demo {
     public static void main(String[] args){
